@@ -15,5 +15,4 @@ export const partners = [
     logo: "/partners/digi-buzz.png",
     url: "",
   },
-  
 ];
