@@ -1,0 +1,49 @@
+.mascot {
+    display: block;
+    object-fit: contain;
+    user-select: none;
+}
+
+.run {
+    transform-origin: center bottom;
+    animation: runCycle 0.48s ease-in-out infinite;
+}
+
+.idle {
+    animation: idleBob 2.4s ease-in-out infinite;
+}
+
+@keyframes runCycle {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+    }
+
+    25% {
+        transform: translateY(-2px) rotate(-1deg);
+    }
+
+    50% {
+        transform: translateY(-4px) scale(0.98, 1.02);
+    }
+
+    75% {
+        transform: translateY(-2px) rotate(1deg);
+    }
+}
+
+@keyframes idleBob {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mascot *,
+    .mascot {
+        animation: none !important;
+    }
+}

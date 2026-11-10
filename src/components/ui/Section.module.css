@@ -1,0 +1,36 @@
+.section {
+    min-height: 100vh;
+    padding-top: calc(var(--nav-h) + 3rem);
+    padding-bottom: 5rem;
+}
+
+.header {
+    max-width: 44rem;
+    margin-bottom: 3rem;
+}
+
+.eyebrow {
+    display: inline-block;
+    padding: 0.3rem 0.9rem;
+    margin-bottom: 1rem;
+    border-radius: 999px;
+    background: var(--yellow);
+    color: var(--navy);
+    font-weight: 700;
+    font-size: var(--fs-sm);
+}
+
+.title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--navy);
+}
+
+.intro {
+    margin-top: 1rem;
+    font-size: var(--fs-md, 1.1rem);
+    line-height: 1.9;
+    color: var(--navy);
+    opacity: 0.8;
+}

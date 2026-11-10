@@ -1,0 +1,48 @@
+:root {
+    /* Official brand colors, do not change */
+    --blue: #0051fd;
+    --yellow: #fecb02;
+    --navy: #030435;
+    --white: #ffffff;
+
+    /* Derived tints */
+    --blue-600: #0044d4;
+    --blue-100: #e6eeff;
+    --blue-50: #f3f7ff;
+    --yellow-100: #fff6d1;
+    --navy-80: rgba(3, 4, 53, 0.8);
+    --navy-12: rgba(3, 4, 53, 0.12);
+    --navy-06: rgba(3, 4, 53, 0.06);
+
+    /* Typography */
+    --font: "Cairo", system-ui, sans-serif;
+    --fs-xs: 0.8125rem;
+    --fs-sm: 0.9375rem;
+    --fs-md: 1.0625rem;
+    --fs-lg: 1.375rem;
+    --fs-xl: clamp(1.75rem, 3vw, 2.5rem);
+    --fs-2xl: clamp(2.25rem, 5vw, 4rem);
+    --fs-hero: clamp(2.75rem, 8vw, 6.5rem);
+
+    /* Spacing and shape */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-24: 6rem;
+    --radius-sm: 10px;
+    --radius-md: 18px;
+    --radius-lg: 28px;
+    --shadow-sm: 0 2px 8px var(--navy-06);
+    --shadow-md: 0 12px 32px rgba(0, 81, 253, 0.14);
+    --shadow-yellow: 0 10px 28px rgba(254, 203, 2, 0.4);
+
+    /* Layout */
+    --container: 1200px;
+    --nav-h: 76px;
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

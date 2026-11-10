@@ -1,0 +1,58 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font);
+    line-height: 1.25;
+    color: var(--navy);
+}
+
+h1 {
+    font-size: var(--fs-hero);
+    font-weight: 800;
+}
+
+h2 {
+    font-size: var(--fs-2xl);
+    font-weight: 800;
+}
+
+h3 {
+    font-size: var(--fs-xl);
+    font-weight: 700;
+}
+
+h4 {
+    font-size: var(--fs-lg);
+    font-weight: 600;
+}
+
+p {
+    font-size: var(--fs-md);
+    font-weight: 400;
+}
+
+.eyebrow {
+    display: inline-block;
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--blue);
+    background: var(--blue-100);
+    padding: 0.25rem 0.9rem;
+    border-radius: 999px;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+/* Latin text in LTR mode: tighter tracking looks better */
+[dir="ltr"] h1,
+[dir="ltr"] h2 {
+    letter-spacing: -0.02em;
+}

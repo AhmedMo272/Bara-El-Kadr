@@ -1,0 +1,83 @@
+.page {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 440px;
+    background: #ffffff;
+    border: 3px solid #030435;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 #fecb02;
+    padding: 36px 30px;
+}
+
+.card h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #030435;
+    margin: 0 0 12px;
+}
+
+.sub {
+    color: #030435;
+    opacity: 0.8;
+    margin: 0 0 20px;
+    line-height: 1.7;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #030435;
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 14px;
+    color: #0051fd;
+}
+
+.field input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    font-size: 1rem;
+    color: #030435;
+    background: transparent;
+    min-width: 0;
+}
+
+.error {
+    color: #b42318;
+    font-weight: 600;
+    margin: 0 0 14px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+
+.links button {
+    background: none;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    font-weight: 600;
+    color: #0051fd;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.links button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}

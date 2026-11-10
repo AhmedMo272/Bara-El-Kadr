@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    padding: 2rem 1.75rem;
+    border: 3px solid var(--navy);
+    border-radius: 28px;
+    background: var(--white);
+    box-shadow: 6px 6px 0 var(--blue);
+}
+
+.num {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background: var(--yellow);
+    border: 3px solid var(--navy);
+    font-weight: 800;
+}
+
+.card h2 {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--navy);
+}
+
+.card p {
+    margin-top: 0.6rem;
+    line-height: 1.9;
+    color: var(--navy);
+    opacity: 0.8;
+}
+
+@media (max-width: 860px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
